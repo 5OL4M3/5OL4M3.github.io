@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.525ba6cf.css",
-    "main.js": "/static/js/main.8b583c7f.js",
+    "main.css": "/static/css/main.8fa81035.css",
+    "main.js": "/static/js/main.7a161cdf.js",
     "static/js/592.5ae9b759.chunk.js": "/static/js/592.5ae9b759.chunk.js",
     "static/media/302.jfif": "/static/media/302.82e61f1c61fc8538f1a2.jfif",
     "static/media/purduebackground.jpg": "/static/media/purduebackground.9b9361c5055e2899b191.jpg",
@@ -13,18 +13,19 @@
     "static/media/Iceberg-Underwater-No-Background.png": "/static/media/Iceberg-Underwater-No-Background.34dd74b7f6ec718996ad.png",
     "static/media/audio_eq.png": "/static/media/audio_eq.5f051f7c45b11325d907.png",
     "static/media/everythingTech.PNG": "/static/media/everythingTech.407f8d06e8178ba62eb4.PNG",
-    "static/media/lin1285_resume.pdf": "/static/media/lin1285_resume.28f2e80d06dd930d8655.pdf",
+    "static/media/image000000.jpg": "/static/media/image000000.aab3ef4a084a075a9d44.jpg",
+    "static/media/lin1285_resume.pdf": "/static/media/lin1285_resume.e8888f38c3ee2d5978b5.pdf",
     "static/media/3dplanet.PNG": "/static/media/3dplanet.5f3eb6f8652e25b36de7.PNG",
     "static/media/waveGen.PNG": "/static/media/waveGen.e185d35d02671bf8dfbe.PNG",
     "static/media/npm.png": "/static/media/npm.ef3f09d99e2fc220e24a.png",
     "static/media/MyLogo.png": "/static/media/MyLogo.31b7ba067772e2f4aa2b.png",
     "index.html": "/index.html",
-    "main.525ba6cf.css.map": "/static/css/main.525ba6cf.css.map",
-    "main.8b583c7f.js.map": "/static/js/main.8b583c7f.js.map",
+    "main.8fa81035.css.map": "/static/css/main.8fa81035.css.map",
+    "main.7a161cdf.js.map": "/static/js/main.7a161cdf.js.map",
     "592.5ae9b759.chunk.js.map": "/static/js/592.5ae9b759.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.525ba6cf.css",
-    "static/js/main.8b583c7f.js"
+    "static/css/main.8fa81035.css",
+    "static/js/main.7a161cdf.js"
   ]
 }
