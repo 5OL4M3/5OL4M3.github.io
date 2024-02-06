@@ -1,0 +1,74 @@
+[
+  {
+    "key": 7,
+    "type": "web, software",
+    "title": "Package Manager",
+    "content": "This is a full stack javascript package manager with command line interface - similar to that of NPM. Users can upload, install, update, and remove packages. The backend is made with C#, and the database is BigQurry from GCP. The frontend is made with Typescript. The Rest API is hosted on Google Cloud Platform and the frontend is hosted on netlify .",
+    "tools": "Google Cloud Platform, BigQuery, .NET/C#, XUnit, SQL, Typescript, Docker, GitHub Actions, Shell, Netlify",
+    "path": "npm.png",
+    "link": "https://github.com/5OL4M3/ECE461Phase2"
+  },
+  {
+    "key": 1,
+    "type": "web, software",
+    "title": "Moments",
+    "content": "Moments is a Full Stack Social Media Web Application, where you can login, post and share a personal experience. Frontend is made with React and Material UI, Backend is made with NodeJS and Express, and the database is MongoDB. The application is deployed on Render.",
+    "tools": "MongoDB, Express, React, NodeJS, Material UI, Render",
+    "path": "moments.PNG",
+    "link": "https://github.com/5OL4M3/MomentsApp"
+  },
+  {
+    "key": 2,
+    "type": "web, software",
+    "title": "Everything Tech",
+    "content": "Everything Tech is a search engine - using Hacker News API - for everything technology related",
+    "tools": "React, CSS, Hacker News Api, Redux",
+    "path": "everythingTech.PNG",
+    "link": ""
+  },
+  {
+    "key": 8,
+    "type": "software",
+    "title": "Procedural Solar System Genrator",
+    "content": "This is a procedural solar system generator made with C# on Unity. It generates a solar system with a sun, planets, and moons. Each planet and moon is generated with a random seed and allows the user to change the parameters and seed. A planet can feature up to 6 biomes: desert, tundra, grassland, forrest, mountain, ocean. Each biome has their own plantations. The user can also change the color of the planet, the number of vertices, and other settings.",
+    "tools": "Unity, C#",
+    "path": "3dplanet.PNG",
+    "link": "https://github.com/5OL4M3/3DPlanet"
+  },
+  {
+    "key": 3,
+    "type": "software",
+    "title": "Assembly Compiler",
+    "content": "A simple assembly Compiler made with C++. It executes a few assembly instrutions and shows the output",
+    "tools": "C++",
+    "path": "assemblyCompiler.PNG",
+    "link": "https://github.com/5OL4M3/Assembly-Compiler"
+  }, 
+  {
+    "key": 4,
+    "type": "software, electrical",
+    "title": "Simon Says Game",
+    "content": "This Simons Says Game is built on a FPGA Board using Verilog code.",
+    "tools": "FPGA, Verilog",
+    "path": "simonSays.PNG",
+    "link": ""
+  },
+  {
+    "key": 5,
+    "type": "electrical",
+    "title": "Audio Equalizer",
+    "content": "The project involves an audio equalizer which allows us to choose certain frequencies to amplify or reduce. Given a certain signal, the audio equalizer is able to filter out signals into three categories: bass frequencies, mid-frequencies, and treble frequencies. The three signals are then added up into a single signal using a summing amplifier. The final magnitude or volume of the signal can be adjusted using another potentiometer incorporated into the summing amplifier",
+    "tools": "Beardboard components, Amplifiers, LTspice,",
+    "path": "audio_eq.png",
+    "link": ""
+  },
+  {
+    "key": 6,
+    "type": "software, electrical",
+    "title": "Water Wave Generator for EPICS",
+    "content": "I worked with a team of elementary education majors to design a wave generator for KidsPlayGym, a safe and therapeutic environment for children in my community. Our clients at KidsPlayGym want a safe and interactive device to create waves in their water table for children to play with. Given their feedback, we created a safe, portable, and engaging wave generator that features Bluetooth capabilities to control wave speed/intensity.",
+    "tools": "Arduino, C, 3D printing, CAD, Solder",
+    "path": "waveGen.PNG",
+    "link": "https://purdueepicsplay.wixsite.com/epics-play/about-1"
+  }
+]

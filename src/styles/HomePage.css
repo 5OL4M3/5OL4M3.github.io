@@ -1,0 +1,57 @@
+#home{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgb(0, 0, 0, 1)), url('../assets/purduebackground.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+
+.greeting {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  font-weight: bold;
+  height: 50%;
+}
+
+.greeting h1 {
+  font-size: 6vw;
+}
+
+.greeting h3 {
+  font-size: 3vw;
+}
+
+#home a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#home a:hover {
+  background-color: white;
+  color: red;
+}
+
+.auto-type{
+  color: #dc143c;
+}
+
+@media (max-width: 900px){
+  .greeting h1 {
+      font-size: 50px;
+  }
+
+  .greeting h3 {
+      font-size: 30px;
+  }
+}

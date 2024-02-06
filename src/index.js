@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import NavBar from './components/NavBar';
+import HomePage from './components/HomePage';
+import AboutPage from './components/AboutPage';
+import QualPage from './components/QualPage';
+import ProjectPage from './components/ProjectPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <NavBar/>
+    <main>
+      <HomePage/>
+      <AboutPage/>
+      <QualPage/>
+      <ProjectPage/>
+    </main>
+    <footer>
+        <p>Have a great day - Kevin Lin</p>
+    </footer>
   </React.StrictMode>
 );
 

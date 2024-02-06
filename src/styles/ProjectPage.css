@@ -1,0 +1,110 @@
+#projects {
+  background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(4,9,30,0.7),rgba(0, 0, 0, 1)), url(../assets/302.jfif);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.buttonContainer {
+  height: 15%;
+}
+
+.buttonContainer button{
+  width: 25%;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.buttonContainer button:hover{
+  background-color: rgba(255, 255, 255, 0.8);;
+  color: crimson;
+}
+
+.tabPanel {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  border-radius: 0 0 20px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.post-card {
+  text-align: center;
+  font-size: 22px;
+  margin: 10px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+#projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.post-cover {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.post-cover h1 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last) value for transparency */
+}
+
+.post-content {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  margin-top: 3vh;
+}
+
+.post-content p {
+  color: black;
+  font-size: 17px;
+  padding: 20px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.post-content a {
+  padding: 20px;
+  text-align: left;
+  font-weight: bolder;
+  color: black;
+}
+
+.post-content a:hover {
+  color: crimson;
+}
+
+.post-behind {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: none;
+}
