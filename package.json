@@ -2,7 +2,7 @@
   "name": "myweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://5OL4M3.github.io/", 
+  "homepage": "http://5OL4M3.github.io/my-site", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts build && cp build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": [
