@@ -2,7 +2,7 @@
   "name": "myweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://5OL4M3.github.io/my-site", 
+  "homepage": "http://5OL4M3.github.io", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
