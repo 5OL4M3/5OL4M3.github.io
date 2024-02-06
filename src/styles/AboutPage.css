@@ -35,8 +35,11 @@
 
 #about img {
   width: 50vh;
+  height: 50vh;
   object-fit: cover;
   object-position: center;
+  border-radius: 100%;
+
 }
 
 .about-content{

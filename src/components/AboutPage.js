@@ -2,7 +2,7 @@ import '../styles/AboutPage.css';
 import { FaGithub } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
-
+import myimage from "../assets/image000000.jpg";
 const AboutPage = () => {
   return (
     <section id="about">
@@ -14,7 +14,7 @@ const AboutPage = () => {
             justifyContent: "center",
             alignItems: "center",
           }}>
-            <img src="https://via.placeholder.com/150" alt="Kevin Lin"/>
+            <img src={myimage} alt="Kevin Lin"/>
             <div className="column">
               <p>
                 I am Kevin Lin. I'm currently a senior, majoring in computer engineering, at Purdue University. 
@@ -33,8 +33,6 @@ const AboutPage = () => {
                 <a href='mailto:klin0732@gmail.com'><IoIosMail size={50} className="contact-icon"/></a>
                 <a href='https://www.linkedin.com/in/kevin-lin-338a1521b'><FaLinkedin size={50} className="contact-icon"/></a>
               </div>
-              
-
             </div>
           </div>
         </div>
