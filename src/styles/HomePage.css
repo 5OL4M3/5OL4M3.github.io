@@ -45,13 +45,3 @@
 .auto-type{
   color: #dc143c;
 }
-
-@media (max-width: 900px){
-  .greeting h1 {
-      font-size: 50px;
-  }
-
-  .greeting h3 {
-      font-size: 30px;
-  }
-}

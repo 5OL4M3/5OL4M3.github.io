@@ -55,24 +55,6 @@ footer {
   padding: 20px;
 }
 
-@media (max-width: 900px){
-  *{
-      overflow-x: hidden;
-  }
-
-  .sectionTitle {
-      font-size: 35px;
-      margin-left: 20px;
-  }
-
-  .content {
-      color: white;
-      display: flex;
-      justify-content: center;
-      position: relative;
-  }
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
