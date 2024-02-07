@@ -20,7 +20,6 @@ const QualPage = () => {
               <li>CSS</li>
               <li>JavaScript</li>
               <li>React</li>
-              <li>Node/Express</li>
             </ul>
           </div>
         );
@@ -35,6 +34,7 @@ const QualPage = () => {
               <li>SQL</li>
               <li>MongoDB</li>
               <li>Docker</li>
+              <li>Node/Express</li>
             </ul>
             <br/>
             <h1>Statistic</h1>

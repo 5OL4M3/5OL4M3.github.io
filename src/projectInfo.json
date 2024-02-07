@@ -3,7 +3,7 @@
     "key": 7,
     "type": "web, software",
     "title": "Package Manager",
-    "content": "This is a full stack javascript package manager with command line interface - similar to that of NPM. Users can upload, install, update, and remove packages. The backend is made with C#, and the database is BigQurry from GCP. The frontend is made with Typescript. The Rest API is hosted on Google Cloud Platform and the frontend is hosted on netlify .",
+    "content": "This is a full stack javascript package manager with command line interface - similar to that of NPM. Users can upload, install, update, and remove packages. The backend is made with C#, and the database is BigQuery from GCP. The frontend is made with Typescript. The Rest API is hosted on Google Cloud Platform and the frontend is hosted on netlify .",
     "tools": "Google Cloud Platform, BigQuery, .NET/C#, XUnit, SQL, Typescript, Docker, GitHub Actions, Shell, Netlify",
     "path": "npm.png",
     "link": "https://github.com/5OL4M3/ECE461Phase2"
@@ -29,7 +29,7 @@
   {
     "key": 8,
     "type": "software",
-    "title": "Procedural Solar System Genrator",
+    "title": "Procedural Solar System Generator",
     "content": "This is a procedural solar system generator made with C# on Unity. It generates a solar system with a sun, planets, and moons. Each planet and moon is generated with a random seed and allows the user to change the parameters and seed. A planet can feature up to 6 biomes: desert, tundra, grassland, forrest, mountain, ocean. Each biome has their own plantations. The user can also change the color of the planet, the number of vertices, and other settings.",
     "tools": "Unity, C#",
     "path": "3dplanet.PNG",
