@@ -26,7 +26,7 @@ const AboutPage = () => {
               <p>
                 As for hobbies, I love reading, cooking, gaming, drawing, and anime/manga. I am also a big fan of basketball; 
                 I love playing pickup basketball and watching the NBA. I don't have a favorite team as I enjoy 
-                all teams, but I do support the 76ers because I am from the Philadephia area.
+                all teams, but I do support the 76ers because I am from the Philadelphia area.
               </p>
               <div className="contact-row">
                 <a href="https://github.com/5OL4M3"><FaGithub size={50} className="contact-icon"/></a>
