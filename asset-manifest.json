@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fa81035.css",
-    "main.js": "/static/js/main.48735463.js",
+    "main.css": "/static/css/main.21d692eb.css",
+    "main.js": "/static/js/main.058b26a9.js",
     "static/js/592.5ae9b759.chunk.js": "/static/js/592.5ae9b759.chunk.js",
     "static/media/302.jfif": "/static/media/302.82e61f1c61fc8538f1a2.jfif",
     "static/media/purduebackground.jpg": "/static/media/purduebackground.9b9361c5055e2899b191.jpg",
@@ -20,12 +20,12 @@
     "static/media/npm.png": "/static/media/npm.ef3f09d99e2fc220e24a.png",
     "static/media/MyLogo.png": "/static/media/MyLogo.31b7ba067772e2f4aa2b.png",
     "index.html": "/index.html",
-    "main.8fa81035.css.map": "/static/css/main.8fa81035.css.map",
-    "main.48735463.js.map": "/static/js/main.48735463.js.map",
+    "main.21d692eb.css.map": "/static/css/main.21d692eb.css.map",
+    "main.058b26a9.js.map": "/static/js/main.058b26a9.js.map",
     "592.5ae9b759.chunk.js.map": "/static/js/592.5ae9b759.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fa81035.css",
-    "static/js/main.48735463.js"
+    "static/css/main.21d692eb.css",
+    "static/js/main.058b26a9.js"
   ]
 }
