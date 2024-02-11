@@ -9,11 +9,7 @@ const AboutPage = () => {
       <div className="aboutme-container">
         <h1 className="sectionTitle">About <span className="red">Me</span></h1> 
         <div className="about-content">
-          <div style={{
-            display: "inline-flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}>
+          <div className="about-column">
             <img src={myimage} alt="Kevin Lin"/>
             <div className="column">
               <p>

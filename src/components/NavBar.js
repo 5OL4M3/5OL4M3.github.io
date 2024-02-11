@@ -35,6 +35,7 @@ const NavBar = () => {
           <li><a href="#projects">PROJECTS</a></li>
         </ul>
       </div>
+      
     </header>
   );
 }

@@ -13,10 +13,10 @@ const ProjectPage = () => {
         <h1 className="sectionTitle">My <span className="red">Projects</span></h1> 
         <div className="experience-content">
           <div className="buttonContainer">
-            <button style= {currentTab === "all" ? {background: "rgba(255, 255, 255, 0.8)", color: "crimson", borderRadius: "20px 0 0 0"}: {background: "black",  borderRadius: "20px 0 0 0"}} onClick={() => setCurrentTab("all")}>All</button>
-            <button style= {currentTab === "web" ? {background: "rgba(255, 255, 255, 0.8)", color: "crimson"}: {background: "black"}} onClick={() => setCurrentTab("web")}>Web App</button>
-            <button style= {currentTab === "software" ? {background: "rgba(255, 255, 255, 0.8)", color: "crimson"}: {background: "black"}} onClick={() => setCurrentTab("software")}>Software</button>
-            <button style= {currentTab === "electrical" ? {background: "rgba(255, 255, 255, 0.8)", color: "crimson", borderRadius: "0 20px 0 0"}: {background: "black",  borderRadius: " 0 20px 0 0"}} onClick={() => setCurrentTab("electrical")}>Electrical</button>
+            <button className="all-button" style= {currentTab === "all" ? {background: "rgba(255, 255, 255, 0.8)", color: "crimson"}: {background: "black"}} onClick={() => setCurrentTab("all")}>All</button>
+            <button className="web-button" style= {currentTab === "web" ? {background: "rgba(255, 255, 255, 0.8)", color: "crimson"}: {background: "black"}} onClick={() => setCurrentTab("web")}>Web App</button>
+            <button className="software-button" style= {currentTab === "software" ? {background: "rgba(255, 255, 255, 0.8)", color: "crimson"}: {background: "black"}} onClick={() => setCurrentTab("software")}>Software</button>
+            <button className="electrical-button" style= {currentTab === "electrical" ? {background: "rgba(255, 255, 255, 0.8)", color: "crimson"}: {background: "black",  borderRadius: " 0 20px 0 0"}} onClick={() => setCurrentTab("electrical")}>Electrical</button>
           </div>
           <div className="tabPanel">
             {postcardData.map((postcard) => (

@@ -16,6 +16,7 @@
   justify-content: center;
   flex-direction: column;
   margin: 7vh;
+  font-size: 2.5vh;
 }
 
 #experience img {
@@ -43,6 +44,7 @@
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
 #experience ul a:hover {
   color: crimson;
 }
@@ -52,6 +54,11 @@
   column-gap: 40px;
   margin-bottom: 5vh;
 }
+
+.two-column li{
+  display: flex;
+}
+
 .section {
   position: flex;
   width: 100%;
@@ -81,4 +88,16 @@
 
 ul ul {
   margin-left: 3vh;
+}
+
+@media only screen and (max-width: 700px) {
+  .experience-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .iceberg {
+    height: 80vw;
+    width: 100%;
+  }
 }

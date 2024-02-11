@@ -11,13 +11,18 @@
   align-items: left;
   height: 100%;
   margin-left: 10vw;
-
   height: auto;
   width: auto;
 }
 .aboutme-container {
   padding-top: 15vh;
   color: white;
+}
+
+.about-column {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-row {
@@ -39,7 +44,6 @@
   object-fit: cover;
   object-position: center;
   border-radius: 100%;
-
 }
 
 .about-content{
@@ -48,7 +52,10 @@
   align-items: center;
   flex-direction: column;
   align-self: center;
-  height: 67vh;
+  height: auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  padding: 2vh;
 }
 
 .contact-icon {
@@ -67,4 +74,28 @@
 .contact-icon:hover {
   transform: scale(1.2);
   color: crimson;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+  .column {
+    margin-left: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .column p {
+    width: 95%;
+    max-width: 90vw;
+  }
+
+  #about img {
+    width: 90vw;
+    height: 90vw;
+  }
 }

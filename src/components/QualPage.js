@@ -1,5 +1,7 @@
 import "../styles/QualPage.css"
 import React, { useState } from "react";
+import { GoDotFill } from "react-icons/go";
+
 const QualPage = () => {
   
 
@@ -76,23 +78,23 @@ const QualPage = () => {
               
               <p style={{fontWeight: "bold"}}>Classes: </p>
               <ul className="two-column"> 
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=716&show=true&type=undergrad"  target = "blank">Electrical Engineering Fund. I</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=726&show=true&type=undergrad"  target = "blank">Electrical Engineering Fund. I Lab</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=725&show=true&type=undergrad"  target = "blank">Electrical Engineering Fund. II</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=591&show=true&type=undergrad"  target = "blank">Advanced C Programming</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=729&show=true&type=undergrad"  target = "blank">Python for Data Science</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=542&show=true&type=undergrad"  target = "blank">Data Structures </a></li>
-                <li><a title = "More info at Purdue's Page" href="https://catalog.purdue.edu/preview_course_nopop.php?catoid=9&coid=85967"  target = "blank">Programming App For Engineers </a></li>
-                <li><a title = "More info at Purdue's Page" href="https://datamine.purdue.edu/" target = "blank"> Datamine (Data Science)</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=33&show=true&type=undergrad"  target = "blank">Signals and Systems</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=607&show=true&type=undergrad"  target = "blank">Introduction to Digital Systems</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=579&show=true&type=undergrad"  target = "blank">OOP: C++ & Java</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=47&show=true&type=undergrad"  target = "blank">Discrete Mathematics</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=515&show=true&type=undergrad"  target = "blank">Computer Security</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=814&show=true&type=undergrad"  target = "blank">Software Engineering</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=612&show=true&type=undergrad"  target = "blank">Microprocessing System and Interface</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=584&show=true&type=undergrad"  target = "blank">Computer Graphics</a></li>
-                <li><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=56&show=true&type=undergrad"  target = "blank">Operating Systems</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=716&show=true&type=undergrad"  target = "blank">Electrical Engineering Fund. I</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=726&show=true&type=undergrad"  target = "blank">Electrical Engineering Fund. I Lab</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=725&show=true&type=undergrad"  target = "blank">Electrical Engineering Fund. II</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=591&show=true&type=undergrad"  target = "blank">Advanced C Programming</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=729&show=true&type=undergrad"  target = "blank">Python for Data Science</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=542&show=true&type=undergrad"  target = "blank">Data Structures </a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://catalog.purdue.edu/preview_course_nopop.php?catoid=9&coid=85967"  target = "blank">Programming App For Engineers </a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://datamine.purdue.edu/" target = "blank"> Datamine (Data Science)</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=33&show=true&type=undergrad"  target = "blank">Signals and Systems</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=607&show=true&type=undergrad"  target = "blank">Introduction to Digital Systems</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=579&show=true&type=undergrad"  target = "blank">OOP: C++ & Java</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=47&show=true&type=undergrad"  target = "blank">Discrete Mathematics</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=515&show=true&type=undergrad"  target = "blank">Computer Security</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=814&show=true&type=undergrad"  target = "blank">Software Engineering</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=612&show=true&type=undergrad"  target = "blank">Microprocessing System and Interface</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=584&show=true&type=undergrad"  target = "blank">Computer Graphics</a></li>
+                <li><GoDotFill /><a title = "More info at Purdue's Page" href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=56&show=true&type=undergrad"  target = "blank">Operating Systems</a></li>
               </ul>  
               <h2>Hover the <span className="red">iceberg</span></h2>
             </div>
