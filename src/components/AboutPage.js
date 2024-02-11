@@ -17,7 +17,7 @@ const AboutPage = () => {
                 I have a hunger for learning and a passion for software. I am always looking for new opportunities 
                 to grow and learn all areas of software, from embedded software to frontend/backend development
                 to machine learnin/ai. In pursuit of my passion, I have been involved in various group and individual projects,
-                research and internship <a href="#experience" style={{color: "crimson", fontWeight: "bold"}}>(Learn More)</a>.
+                research and internship <a href="https://www.linkedin.com/in/kevin-lin-338a1521b" style={{color: "crimson", fontWeight: "bold"}}>(Learn More)</a>.
               </p>
               <p>
                 As for hobbies, I love reading, cooking, gaming, drawing, and anime/manga. I am also a big fan of basketball; 
